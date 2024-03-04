@@ -1,0 +1,40 @@
+h1{
+    color: red;
+    border:5px dashed Tomato;
+}
+
+#subheading{
+    color: aqua;
+    
+}
+
+.content{
+    /* color name or hex or rgb*/
+    color: blue;
+    height: 500px;
+    width: 100px;
+
+    /*border*/
+    border: 2px solid red;
+    /*border: 2px solid rgb(255, 99, 71);*/
+    /*border: 2px solid rgba(255, 99, 71, 0.8);*/
+    /*border: 2px solid #ff6347;*/
+    /*border: 2px sbolid hsla(9, 100%, 64%,);*/
+
+
+    border-top: 4px solid red;
+    border-left: 4px solid black;
+    border-bottom: 4px solid green;
+    border-right: 4px solid red;
+    
+    border-radius: 50px;
+
+
+    /*background image*/
+    background-image: url(./haizan.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+    margin-left: 50px;
+    padding: 10px;
+}
