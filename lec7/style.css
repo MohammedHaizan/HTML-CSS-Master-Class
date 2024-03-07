@@ -1,0 +1,28 @@
+h1{
+    max-width: 600px;
+    background-color: aquamarine;
+
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px red;
+    font-family: "roboto", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+    a:link{
+        color: blueviolet;
+    }
+
+    a:visited{
+        color: blue;
+    }
+
+    a:hover{
+        color: brown;
+        text-decoration: double;
+    }
+
+    a:active{
+        color: chartreuse;
+    }
