@@ -1,0 +1,112 @@
+.overflow-div{
+    width: 300px;
+    height: 500px;
+    background-color: aqua;
+    padding: 10px;
+    opacity: 0.5;
+    
+    /* overflow */
+     overflow-y: scroll;
+
+     float: right
+     
+     ;
+}
+
+.overflow-div p {
+    font-size: 20px;
+}
+
+.overflow-div:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.navbar1{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: blanchedalmond;
+
+}
+
+.navbar1 a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navbar1 a:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+.navbar2{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar2 li {
+    float: left;
+}
+
+.navbar2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar2 li a:hover{
+    background-color: gray;
+}
+
+.dropdown{
+   display: inline-block;
+    
+}
+
+.dropdown-btn{
+    background-color: greenyellow;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content{
+    display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+
+}
+
+.dropdown:hover .dropdown-btn{
+    background-color: green;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: gray;
+}
